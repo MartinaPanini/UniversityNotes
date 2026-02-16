@@ -1,0 +1,1 @@
+vbase.o: vbase.cpp

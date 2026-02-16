@@ -1,0 +1,14 @@
+global { cxxflags { -Wall -std=c++14 } }
+// exec { name {ambiguos} srcs {ambiguos.cpp} }
+exec { name {copy1} srcs {copy1.cpp, myclass.cpp} }
+exec { name {manyobj} srcs {manyobj.cpp, manyobj_main.cpp} }
+exec { name {complex} srcs {complex.cpp, comp_main.cpp} }
+exec { name {breaktie} srcs {breaktie.cpp} }
+exec { name {shape} srcs {shape.cpp, main.cpp, circle.cpp, rect.cpp, triangle.cpp} }
+exec { name {shape_diag} srcs {shapes_main.cpp, shape.cpp, circle.cpp, rect.cpp, triangle.cpp} }
+exec { name {dominance} srcs {dominance.cpp} }
+exec { name {dominance2} srcs {dominance2.cpp} }
+exec { name {duplicate} srcs {duplicate.cpp} }
+exec { name {multiple} srcs {multiple.cpp} }
+exec { name {vbase} srcs {vbase.cpp} }
+exec { name {virt_in_constr} srcs {virt_in_constr.cpp} }
